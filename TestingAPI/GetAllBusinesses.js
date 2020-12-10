@@ -24,6 +24,7 @@ $.ajax({
     }
 });
 
+// This is all in the URL part
 //datefrom: it is the date from which businesses have visited
 //dateto: the date to which the businesses have visited
 //pagesize: number of records to return in a page of results
