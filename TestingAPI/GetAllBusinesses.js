@@ -1,3 +1,4 @@
+//Returns all of the businesses who have visited the client site between the date range provided.
 
 $.ajax({
     type: 'GET',
@@ -21,3 +22,9 @@ $.ajax({
         //ajax error trap
     }
 });
+
+//datefrom: it is the date from which businesses have visited
+//dateto: the date to which the businesses have visited
+//pagesize: number of records to return in a page of results
+//pageno: the particular page of results
+
