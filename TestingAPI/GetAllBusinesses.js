@@ -4,6 +4,7 @@ $.ajax({
     type: 'GET',
     dataType: 'json',
     url: 'https://interact.leadforensics.com/WebApi_v2/Business/GetAllBusinesses?datefrom=10-05-2016 00:00:00&dateto=12-06-2016 23:59:59&pagesize=5&pageno=1',
+    // this url is an example
     headers: {
         'Authorization-Token': '',
         //add the token given, if not, it wont work
