@@ -3,7 +3,7 @@
 $.ajax({
     type: 'GET',
     dataType: 'json',
-    url: '';
+    url: 'xxxx',
     headers: {
         'Authorization-Token': '',
         'ClientID': '',

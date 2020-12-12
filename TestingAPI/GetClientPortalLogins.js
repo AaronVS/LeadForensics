@@ -5,8 +5,8 @@ $.ajax({
     dataType: 'json',
     url: 'url /GetClientPortalLogins?datefrom=18-09-2018 00:00:00&dateto=19-09-2018 23:59:59&pagesize=5&pageno=1',
     headers: {
-        'Authorization-Token': 'Zax4qjY5w3tmAlqJUajROgW',
-        'ClientID': '45656'
+        'Authorization-Token': 'xxxxxxxxxxxxxxx',
+        'ClientID': 'xxxxx'
     },
     success: function (data) {
         if (data.List.length > 0) {
