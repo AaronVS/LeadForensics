@@ -22,4 +22,23 @@ $.ajax({
 });
 
 // numberOfResults
-//The number of records to return in the call respon
+//The number of records to return in the call respond
+/*
+{
+  "Description": "The latest visits, limited by the number of results required",
+  "LatestVisitsList": [
+    {
+      "VisitID": 1258759738,
+      "BusinessID": 1101281,
+      "Name": "Bonafide Bones The Butcher",
+      "StartDateTime": "2016-06-27T15:58:38"
+    },
+    {
+      "VisitID": 1258759818,
+      "BusinessID": 1101275,
+      "Name": "Ferret Acupuncture",
+      "StartDateTime": "2016-06-27T15:58:38"
+    }
+  ]
+}
+*/
