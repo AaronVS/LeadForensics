@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TestingAPI"
   ],
+  "SelectedNode": "\\TestingAPI\\GetBusinessesByAssignedTo.js",
   "PreviewInSolutionExplorer": false
 }
