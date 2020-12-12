@@ -1,4 +1,5 @@
-// Visits - Returns the number of visits made to a client site of businesses assigned to a user in the date range supplied for the number of results required
+// Visits - Returns the number of visits made to a client site of businesses
+// assigned to a user in the date range supplied for the number of results required
 
 $.ajax({
     type: 'GET',
