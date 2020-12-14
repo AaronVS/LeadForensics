@@ -71,19 +71,25 @@ So, LeadForensics gives you a unique `ClientID` and a unique `Authorization Toke
       12. Mainly you can see it gives an answers but without any information inside because there is no information inside the webpage or anything similar.
 
 The response with any given token is:
-`GetVisitDetails` Response
+`GetVisitDetails` Response:
+
 {
+
     "Conversions": [],
     "Assignees": [],
     "Duration": "",
     "Browser": "",
     "OperatingSystem": "",
     "Device": ""
+
 }
 
 Response it *should* have according to LF:
+
 {
-  "SiteVisitList": [
+
+    "SiteVisitList": [
+
     {
       "BusinessID": 1101281,
       "VisitID": 1258759738,
@@ -95,11 +101,11 @@ Response it *should* have according to LF:
       "ReferrerName": "Google",
       "ReferrerLink": "http://www.google.co.uk"
     }
-  ],
-  "PageSize": 5,
-  "PageCount": 1,
-  "RecordCount": 1,
-  "CurrentPage": 1
+
+    "PageSize": 5,
+    "PageCount": 1,
+    "RecordCount": 1,
+    "CurrentPage": 1
 }
 
 This goes for any of the other APIs, as the URL they give is empty or not having good access to get the information 
