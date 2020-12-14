@@ -68,6 +68,43 @@ So, LeadForensics gives you a unique `ClientID` and a unique `Authorization Toke
       9. After this, you go to the `HEADERS` tab, and in `KEY` you write `ClientID` and in `VALUE` the value of this ID, you can use the example or the one given to you.
       10. Following these two last steps, you click `SEND` and the below a *RESPONSE* will appear, giving the values or the information from that API, if there is any kind of  information.
       11. You can repeat this process mainly with every API given by LF.
+      12. Mainly you can see it gives an answers but without any information inside because there is no information inside the webpage or anything similar.
+
+The response with any given token is:
+`GetVisitDetails` Response
+{
+    "Conversions": [],
+    "Assignees": [],
+    "Duration": "",
+    "Browser": "",
+    "OperatingSystem": "",
+    "Device": ""
+}
+
+Response it *should* have according to LF:
+{
+  "SiteVisitList": [
+    {
+      "BusinessID": 1101281,
+      "VisitID": 1258759738,
+      "StartDateTime": "2016-05-30T15:58:38",
+      "EndDateTime": "2016-06-01T15:58:37",
+      "Keywords": "",
+      "Pages": 1,
+      "Multi": 1,
+      "ReferrerName": "Google",
+      "ReferrerLink": "http://www.google.co.uk"
+    }
+  ],
+  "PageSize": 5,
+  "PageCount": 1,
+  "RecordCount": 1,
+  "CurrentPage": 1
+}
+
+This goes for any of the other APIs, as the URL they give is empty or not having good access to get the information 
+     
+
 
   4. Do a `VIDEO` or `Document` explaining how everything is working.
 
