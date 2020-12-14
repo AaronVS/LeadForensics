@@ -54,12 +54,22 @@ So, LeadForensics gives you a unique `ClientID` and a unique `Authorization Toke
   2. Choose the correct APIs
    - There are more than 20 APIs, choose the ones that are the most **relevant** for this project.
  
-  3. Get the *DATA* using *JS* or *Java* 
+  3. Get the *DATA* 
+      **SOLUTION** - Use `Postman`, good SW to get and pull the information out of these APIs in an accurate way.
+      Steps to follow for `Postman`:
+      1. [Download](https://www.postman.com/) the App or use the [Browser](https://www.postman.com/) option
+      2. Create your own account.
+      3. Once you have created your own account, you have different options of creating a group or whatever. You can **SKIP** that part.
+      4. After this, you will be in the main page. In the top left corner you can see 4 different **tabs**, *click* the `Workspace` tab.
+      5. In `Workspace` you will see several things, just *click* the `+` for opening a new tab and in there all the magic happens.
+      6. You **enter** the requested URL with the `GET` as every API from LF is a `GET`. 
+      7. After that, below the URL entering space, you can see `Params`; `Authorization`; `Headers`...
+      8. Firstly, in Authorization in `TYPE` you choose `API KEY`, and on the right `KEY` and `VALUE` will appear. In `KEY` you just enter the name of it, in this case         `Authorization-Key` and in `VALUE` you enter the value of this key, it can be the one given as an example or the one given by Lead Forensics.
+      9. After this, you go to the `HEADERS` tab, and in `KEY` you write `ClientID` and in `VALUE` the value of this ID, you can use the example or the one given to you.
+      10. Following these two last steps, you click `SEND` and the below a *RESPONSE* will appear, giving the values or the information from that API, if there is any kind of  information.
+      11. You can repeat this process mainly with every API given by LF.
 
-  4. Try to implement the `source code` to **get/pull** the data.
-    - First try to see if it works with the code given, if not, just ask (i guess).
-
-  5. Do a `VIDEO` or `Document` explaining how everything is working.
+  4. Do a `VIDEO` or `Document` explaining how everything is working.
 
 *If possible read the Guide if there is anything good enough in there.*
     
